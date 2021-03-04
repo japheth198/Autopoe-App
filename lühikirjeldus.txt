@@ -3,3 +3,4 @@ Projekti lühikirjeldus: Autopoe app, kus on võimalik võrrelda erinevate poodi
 
 Kasutusvahendid : Android Studio, Github
 
+
