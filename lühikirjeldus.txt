@@ -1,1 +1,5 @@
-Klayd
+
+Projekti lühikirjeldus: Autopoe app, kus on võimalik võrrelda erinevate poodide vahel, auto hindasid, mudeleid, auto aastaid jne. Leida sobiv pakkumine.
+
+Kasutusvahendid : Android Studio, Github
+
