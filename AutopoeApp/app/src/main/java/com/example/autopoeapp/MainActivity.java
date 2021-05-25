@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     if (cursor != null) {
                         if (cursor.getCount() > 0) {
                             startActivity(new Intent(MainActivity.this, Login_Success.class));
-                            Toast.makeText(getApplicationContext(), "Login sucess", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Login success", Toast.LENGTH_SHORT).show();
 
                         } else {
                             Toast.makeText(getApplicationContext(), "Login error", Toast.LENGTH_SHORT).show();

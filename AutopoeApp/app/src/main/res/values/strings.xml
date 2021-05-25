@@ -35,5 +35,7 @@
     <string name="SL4">SL 400</string>
     <string name="SL45">SL 450/400</string>
     <string name="label_buy_now">BUY NOW</string>
+    <string name="Account">Account</string>
+    <string name="Logout">Logout</string>
 
 </resources>

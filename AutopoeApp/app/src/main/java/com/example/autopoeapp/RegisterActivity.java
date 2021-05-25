@@ -41,19 +41,22 @@ public class RegisterActivity extends AppCompatActivity {
                 String fPassword = regPassword.getText().toString().trim();
                 if (fname.isEmpty() || fPassword.isEmpty() || fGmail.isEmpty() || fPhone.isEmpty()) {
                     Toast.makeText(RegisterActivity.this, "Please fill all the details", Toast.LENGTH_SHORT).show();
+
                 } else {
                     insertData(fname,fPhone,fGmail,fPassword);
                     Toast.makeText(RegisterActivity.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(RegisterActivity.this, CarsActivity.class);
+                    startActivity(intent);
                 }
-                Intent intent = new Intent(RegisterActivity.this, CarsActivity.class);
-                startActivity(intent);
+
             }
         });
+
 
         gotoLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(RegisterActivity.this,CarsActivity.class));
+                startActivity(new Intent(RegisterActivity.this,MainActivity.class));
 
             }
         });
@@ -67,4 +70,6 @@ public class RegisterActivity extends AppCompatActivity {
 
         long id = db.insert(DatabaseHelper.TABLE_NAME,null,contentValues);
     }
+
+
 }
