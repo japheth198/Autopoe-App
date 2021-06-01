@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/picture"
-        android:layout_width="237dp"
-        android:layout_height="181dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="207dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description"
         app:srcCompat="@drawable/audir81" />
@@ -22,14 +22,14 @@
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:text="@string/speed1"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.883"
         app:layout_constraintStart_toEndOf="@+id/picture"
         app:layout_constraintTop_toBottomOf="@+id/description" />
 
@@ -83,9 +83,9 @@
         style="@style/Widget.AppCompat.TextView.SpinnerItem"
         android:layout_width="192dp"
         android:layout_height="43dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
         android:text="@string/Mudel2"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/black"
@@ -235,4 +235,16 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/goback"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/feather_arrows_arrow_left"
+        android:onClick="onBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

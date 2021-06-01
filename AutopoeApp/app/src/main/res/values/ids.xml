@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="account" type="id">Account</item>
-    <item name="logout" type="id">Logout</item>
-
-</resources>

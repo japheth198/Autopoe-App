@@ -15,6 +15,8 @@ public class CarsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cars);
+
+
     }
 
     public void onOpen(View view) {
@@ -47,6 +49,7 @@ public class CarsActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+        return super.onOptionsItemSelected(item);
     }
 
 

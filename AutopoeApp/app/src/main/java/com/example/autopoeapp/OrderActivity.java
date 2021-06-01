@@ -14,7 +14,7 @@ public class OrderActivity extends AppCompatActivity {
     }
 
     public void onOrder(View view) {
-        Intent intent = new Intent(this, PaymentActivity.class);
+        Intent intent = new Intent(OrderActivity.this, PaymentActivity.class);
         startActivity(intent);
     }
 
