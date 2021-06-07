@@ -47,5 +47,7 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="Back">Back</string>
+    <string name="Email">Email: </string>
+    <string name="Password">Password: </string>
 
 </resources>

@@ -42,7 +42,7 @@ public class CarsActivity extends AppCompatActivity {
                 startActivity(account);
                 break;
             case R.id.logout:
-                Intent login = new Intent(CarsActivity.this, MainActivity.class);
+                Intent login = new Intent(CarsActivity.this, LoginActivity.class);
                 login.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(login);
                 break;
