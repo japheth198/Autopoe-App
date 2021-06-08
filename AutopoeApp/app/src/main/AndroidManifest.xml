@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AutopoeApp">
-        <activity android:name=".AccountActivity" />
         <activity android:name=".CarsActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".Order2Activity" />

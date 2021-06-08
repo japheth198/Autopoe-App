@@ -36,20 +36,10 @@ public class CarsActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.account:
-                Intent account = new Intent(CarsActivity.this, AccountActivity.class);
-                startActivity(account);
-                break;
-            case R.id.logout:
                 Intent login = new Intent(CarsActivity.this, LoginActivity.class);
                 login.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(login);
-                break;
-            default:
                 return super.onOptionsItemSelected(item);
-        }
-        return super.onOptionsItemSelected(item);
     }
 
 
