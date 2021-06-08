@@ -25,14 +25,13 @@
 
     <Button
         android:id="@+id/btnBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="69dp"
+        android:layout_height="59dp"
         android:layout_above="@+id/btnBuy"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginBottom="30dp"
-        android:background="#071EF1"
-        android:onClick="onBack"
-        android:text="@string/Back" />
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/feather_arrows_arrow_left"
+        android:onClick="onBack" />
 
 </RelativeLayout>

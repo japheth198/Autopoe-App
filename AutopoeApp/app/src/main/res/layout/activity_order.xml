@@ -27,7 +27,9 @@
         android:id="@+id/picture"
         android:layout_width="164dp"
         android:layout_height="134dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description"
         app:srcCompat="@drawable/honda1" />
@@ -38,14 +40,14 @@
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:text="@string/speed"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintHorizontal_bias="0.887"
         app:layout_constraintStart_toEndOf="@+id/picture"
         app:layout_constraintTop_toBottomOf="@+id/description" />
 
@@ -211,8 +213,8 @@
 
     <Button
         android:id="@+id/Pack2"
-        android:layout_width="92dp"
-        android:layout_height="61dp"
+        android:layout_width="94dp"
+        android:layout_height="78dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="32dp"
@@ -242,8 +244,8 @@
 
     <Button
         android:id="@+id/goback"
-        android:layout_width="64dp"
-        android:layout_height="48dp"
+        android:layout_width="54dp"
+        android:layout_height="41dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
